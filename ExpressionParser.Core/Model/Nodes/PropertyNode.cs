@@ -23,15 +23,13 @@ namespace ExpressionParser.Model.Nodes
 						else
 						{
 							var getMethod = callerExpression.Type.GetProperty("Item", new[] { typeof(string) })?.GetGetMethod();
+
+							// For System.Text.JsonElement
+							if (getMethod == null)
+								getMethod = callerExpression.Type.GetMethod("GetProperty", new[] { typeof(string) });
+
 							if (getMethod != null)
 								return Expression.Call(callerExpression, getMethod, Expression.Constant(Name));
-							else
-							{
-								// For System.Text.JsonElement
-								member = callerExpression.Type.GetProperty("GetProperty", new[] { typeof(string) });
-								if (member != null)
-									return Expression.Property(callerExpression, member, Expression.Constant(Name));
-							}
 						}
 
 						throw new MissingMemberException();
