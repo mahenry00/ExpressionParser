@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <SignAssembly>false</SignAssembly>
+    <Authors>Mark Henry</Authors>
+    <Description>A C# expression parser for a single line string input.</Description>
+    <Copyright>Copyright ©  2020</Copyright>
+    <AssemblyVersion>1.3.0.0</AssemblyVersion>
+    <FileVersion>1.3.0.0</FileVersion>
+    <Version>1.3.0</Version>
+  </PropertyGroup>
+
+</Project>

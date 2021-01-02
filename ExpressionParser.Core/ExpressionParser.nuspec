@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>CSharp.ExpressionParserCore</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Mark Henry, Andre Vianna</authors>
+    <owners>Mark Henry, Andre Vianna</owners>
+    <licenseUrl>https://raw.githubusercontent.com/mahenry00/ExpressionParser/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/mahenry00/ExpressionParser</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/mahenry00/ExpressionParser/master/Icon256.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>
+1.3.0   - Added support for using the Item/indexer property if no appropriate property exists
+        - Convert values if types don't match (only for Equals and NotEquals at the moment)
+1.2.2   - More code clean up and bug corrections.
+1.2.1   - Code clean up and small improvements.
+1.2.0   - Added support to 'is' and 'as' operators.
+1.1.0   - Added support to type cast.
+        - Include support to default System type (see documentation).
+        - Include "Using" methods to reference additional type.
+1.0.1.* - Initial package; Compatible with .Net Framework 4.5.1.
+    </releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>Parser C# Linq Expression Dynamic</tags>
+  </metadata>
+</package>

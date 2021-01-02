@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2024
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8B7DDA91-008F-4AF8-BB53-6A6DC920274B}"
 	ProjectSection(SolutionItems) = preProject
@@ -13,9 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionParser", "ExpressionParser\ExpressionParser.csproj", "{869CDC74-F58F-4600-8636-D0B0CCCD4416}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionParser.Core", "ExpressionParser.Core\ExpressionParser.Core.csproj", "{678D7853-5A3E-477F-998B-56B5E8C3CDAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionParser.Tests", "ExpressionParser.Tests\ExpressionParser.Tests.csproj", "{D47E6ECF-68CD-4204-9DAA-B227FB4B41D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionParser.Core.Tests", "ExpressionParser.Core.Tests\ExpressionParser.Core.Tests.csproj", "{F69AB4FF-8362-4066-A148-71F511A6FC08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,14 +23,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{869CDC74-F58F-4600-8636-D0B0CCCD4416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{869CDC74-F58F-4600-8636-D0B0CCCD4416}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{869CDC74-F58F-4600-8636-D0B0CCCD4416}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{869CDC74-F58F-4600-8636-D0B0CCCD4416}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D47E6ECF-68CD-4204-9DAA-B227FB4B41D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D47E6ECF-68CD-4204-9DAA-B227FB4B41D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D47E6ECF-68CD-4204-9DAA-B227FB4B41D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D47E6ECF-68CD-4204-9DAA-B227FB4B41D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{678D7853-5A3E-477F-998B-56B5E8C3CDAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{678D7853-5A3E-477F-998B-56B5E8C3CDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{678D7853-5A3E-477F-998B-56B5E8C3CDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{678D7853-5A3E-477F-998B-56B5E8C3CDAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F69AB4FF-8362-4066-A148-71F511A6FC08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F69AB4FF-8362-4066-A148-71F511A6FC08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F69AB4FF-8362-4066-A148-71F511A6FC08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F69AB4FF-8362-4066-A148-71F511A6FC08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

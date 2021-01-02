@@ -89,12 +89,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ExpressionParser\ExpressionParser.csproj">
-      <Project>{869cdc74-f58f-4600-8636-d0b0cccd4416}</Project>
-      <Name>ExpressionParser</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
       <Visible>False</Visible>
       <ProductName>.NET Framework 3.5 SP1</ProductName>
